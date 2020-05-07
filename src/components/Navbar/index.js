@@ -1,23 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import './style.css'
+
 export default function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <Link class="navbar-brand" href="/">Mauricio Gonzalez</Link>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <Link to='/'className="navbar-brand" ><img alt='logo' src="./assets/img/logo.png"></img></Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <Link class="nav-link" href="/aboutme">About Me <span class="sr-only">(current)</span></Link>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
+                <li className="nav-item active">
+                    <Link to='/about'className="nav-link">About Me <span className="sr-only">(current)</span></Link>
                 </li>
-                <li class="nav-item">
-                    <Link class="nav-link" href="/projects">Projects</Link>
+                <li className="nav-item">
+                    <Link 
+                   to='/projects' className="nav-link" >Projects</Link>
                 </li>
-                <li class="nav-item">
-                    <Link class="nav-link" href="/contact">Contact Me!</Link>
+                <li className="nav-item">
+                    <Link to='/contact' className="nav-link">Contact Me!</Link>
                 </li>
                 </ul>
             </div>
