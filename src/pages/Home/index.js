@@ -2,13 +2,17 @@ import React from 'react'
 import SectionOne from '../../components/SectionOne'
 
 import './style.css'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
 
 const Home = () => {
     return (
-        <div>
+        <main className="flex-shrink-0">
+
             <SectionOne />
-            
-        </div>
+            <Portfolio />
+            <Footer />
+        </main>
     )
 }
 export default Home
