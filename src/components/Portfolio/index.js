@@ -5,28 +5,37 @@ import './style.css'
 export default function Portfolio() {
     
     return (
-        <div className="Portfolio">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="..." alt="First slide" />
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Second slide" />
-                    </div>
-                    <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Third slide" />
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-                </div>
+        <div class="row portfolio d-flex justify-content-center">
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Note Taker with Express</h5>
+                <p class="card-text">Create, Read, Update and Delete notes filled with your ideas.</p>
+                <a href="https://github.com/tabby-lab/Project2" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/mgonza63/noteTaker" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Budget BackPacker</h5>
+                <p class="card-text">An easy way to create a Day Planner anywhere you go. </p>
+                <a href="https://github.com/tabby-lab/Project2" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/tabby-lab/Project2" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Smorgas Chords</h5>
+                <p class="card-text">Get lyrics and chords from your favorite songs.</p>
+                <a href="https://github.com/tabby-lab/Project2" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/tabby-lab/Project2" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+        </div>
         </div>
     )
 }

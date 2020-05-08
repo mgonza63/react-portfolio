@@ -1,7 +1,9 @@
-footer {
-    background-color: grey;
+.portfolio {
+    padding: 40px;
 }
-.footer {
-    background-color: honeydew;
-    padding-top: 10px;
+.card {
+    max-width: 18rem;
 }
+ .card-body a {
+     margin-right: 10px;
+ }

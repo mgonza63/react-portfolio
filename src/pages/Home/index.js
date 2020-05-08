@@ -5,6 +5,7 @@ import './style.css'
 import Footer from '../../components/Footer'
 import Portfolio from '../../components/Portfolio'
 
+
 const Home = () => {
     return (
         <main className="flex-shrink-0">
