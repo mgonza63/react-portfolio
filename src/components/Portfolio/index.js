@@ -2,6 +2,8 @@ import React from 'react';
 
 import './style.css'
 
+import Footer from '../Footer'
+
 export default function Portfolio() {
     
     return (
@@ -37,5 +39,6 @@ export default function Portfolio() {
             </div>
         </div>
         </div>
+        
     )
 }
