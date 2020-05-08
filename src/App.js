@@ -8,10 +8,10 @@ import {
 import Nav from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
-import Project from './pages/Projects'
 
 import './App.css'
 import Projects from "./pages/Projects";
+import Contact from './pages/Contact '
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
-          <Route path='/projects' component={Projects} />
+          <Route path='/contact' component={Contact} />
         </Switch>
       </div>
     </Router>
