@@ -4,6 +4,7 @@
 .card {
     max-width: 18rem;
 }
- .card-body a {
+a {
      margin-right: 10px;
+     color: black;
  }
