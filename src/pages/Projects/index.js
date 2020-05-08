@@ -4,7 +4,7 @@ import './style.css'
 
 const Projects = () => {
     return (
-    <div className="container">
+    <div className="container projects">
             
         <div className="row justify-content-md-center">
             <div className="col">

@@ -4,7 +4,7 @@ import './style.css'
 
 const Contact = () => {
     return (
-        <div className="container">
+        <div className="container contact">
             
         <div className="row justify-content-md-center">
             <div className="col">
